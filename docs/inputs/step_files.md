@@ -158,7 +158,7 @@ model.add_stp_file(
 
 Common scale factors:
 - `0.1` - mm to cm
-- `0.01` - mm to m
+- `0.001` - mm to m
 - `10.0` - cm to mm
 - `100.0` - m to cm
 
