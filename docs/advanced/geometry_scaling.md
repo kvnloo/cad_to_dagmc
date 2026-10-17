@@ -18,7 +18,7 @@ assembly.add(small_sphere)
 model = CadToDagmc()
 model.add_cadquery_object(cadquery_object=assembly, material_tags=["mat1", "mat2"])
 
-# Scale geometry 10x (e.g., mm to cm)
+# Scale geometry 10x (e.g., cm to mm)
 model.export_dagmc_h5m_file(
     min_mesh_size=0.5,
     max_mesh_size=1.0e6,
